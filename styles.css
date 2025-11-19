@@ -1,56 +1,49 @@
-/* Оформлення сторінки */
 body {
-  background-color: #f2f5fa;
-  font-family: "Segoe UI", Arial, sans-serif;
-  color: #222;
-  margin: 40px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* Заголовки */
-h1 {
-  color: #1e40af;
-  text-align: center;
-  text-transform: uppercase;
+header, nav, footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
 
-h2 {
-  color: #2563eb;
-  border-bottom: 2px solid #2563eb;
-  padding-bottom: 5px;
+main {
+    padding: 20px;
+    height: 500px; /* Для демонстрації прокрутки */
+    position: relative;
+    background-color: #f0f0f0;
 }
 
-/* Список */
-ul {
-  list-style: square;
-  padding-left: 30px;
+/* Відносне позиціювання */
+.box1 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
 }
 
-/* Посилання */
-a {
-  color: #2563eb;
-  text-decoration: none;
+/* Абсолютне позиціювання */
+.box2 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: #FF5722;
+    color: white;
+    padding: 20px;
 }
 
-a:hover {
-  color: #1e3a8a;
-  text-decoration: underline;
-}
-
-/* Зображення */
-img {
-  display: block;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-/* Адаптивність */
-@media (max-width: 600px) {
-  body {
-    margin: 10px;
-    font-size: 14px;
-  }
-  img {
-    width: 100%;
-  }
+/* Фіксоване позиціювання */
+.box3 {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #9C27B0;
+    color: white;
+    padding: 20px;
 }
