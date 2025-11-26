@@ -2,17 +2,35 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Позиціювання елементів</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шаблон веб-сторінки</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>Шапка сайту</header>
-    <nav>Меню</nav>
-    <main>
-        <div class="box1">Блок 1 (relative)</div>
-        <div class="box2">Блок 2 (absolute)</div>
-        <div class="box3">Блок 3 (fixed)</div>
-    </main>
-    <footer>Футер сайту</footer>
+
+<header class="header">
+    <div class="logo">Мій Сайт</div>
+    <nav class="nav">
+        <a href="#">Головна</a>
+        <a href="#">Про нас</a>
+        <a href="#">Контакти</a>
+    </nav>
+</header>
+
+<main class="content">
+    <h1>Вітаємо на сайті!</h1>
+    <p>Це простий шаблон веб-сторінки з шапкою, основним блоком і футером.</p>
+
+    <div class="card">
+        <h2>Приклад блоку</h2>
+        <p>Учні можуть змінювати текст, кольори, стилі або додавати нові елементи.</p>
+        <button class="btn">Натиснути</button>
+    </div>
+</main>
+
+<footer class="footer">
+    © 2025. Усі права захищені.
+</footer>
+
 </body>
 </html>
