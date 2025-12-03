@@ -1,87 +1,34 @@
-/* Глобальні стилі */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    background-color: #f0f7ff;
     font-family: Arial, sans-serif;
-    background: #f5f5f5;
-    color: #222;
 }
 
-/* ====================== */
-/*      ШАПКА (header)    */
-/* ====================== */
-
-.header {
-    background: #2b6cb0;
-    color: white;
-    padding: 15px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 15px;
-    font-weight: bold;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-}
-
-/* ====================== */
-/*        Контент         */
-/* ====================== */
-
-.content {
-    padding: 20px;
-    max-width: 900px;
-    margin: auto;
-}
-
-/* Стиль карточки */
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    margin-top: 20px;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 16px;
-    background: #2b6cb0;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background: #1e4f82;
-}
-
-/* ====================== */
-/*          Футер         */
-/* ====================== */
-
-.footer {
+h1, h2, h3 {
     text-align: center;
-    padding: 15px;
-    background: #ddd;
-    margin-top: 30px;
-    font-size: 14px;
+    color: #003366;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #003366;
+    border-radius: 10px;
+}
+
+ul li {
+    color: #003366;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid #003366;
+    padding: 8px 15px;
+}
+
+table tr:nth-child(2) {
+    background-color: #e3efff;
 }
