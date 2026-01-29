@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя GIF-анімація</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f0f0f0;
+        }
+        img {
+            width: 300px; /* розмір GIF */
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Привіт! Це моя GIF-анімація</h1>
+
+    <!-- GIF-анімація -->
+    <img src="animation.gif" alt="Моя анімація">
+
+    <p>Це приклад веб-сторінки з GIF-анімацією.</p>
+
+</body>
+</html>
