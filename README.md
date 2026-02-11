@@ -5,11 +5,9 @@
 3. Відкрийте панель інструментів і вставте туди наступний javascript код. Він покаже поточні координати X,Y відносно веб-документу
 
 ```html
-<script>
-  document.addEventListener('mousemove', function(e) {
-    let x = e.pageX;
-    let y = e.pageY;
+document.addEventListener('mousemove', function(e) {
+  let x = e.pageX;
+  let y = e.pageY;
 
-    console.log("X:", x, "Y:", y);
-  });
-</script>
+  console.log("X:", x, "Y:", y);
+});
