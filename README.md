@@ -1,13 +1,22 @@
-## 🛠 Використання
-
-1. Скопіюйте файл `index.html` i `ukraine-map.webp` на свій комп’ютер.
-2. Відкрийте `index.html` в браузері і в блокноті
-3. Відкрийте панель інструментів і вставте туди наступний javascript код. Він покаже поточні координати X,Y відносно веб-документу
-
-```html
-document.addEventListener('mousemove', function(e) {
-  let x = e.pageX;
-  let y = e.pageY;
-
-  console.log("X:", x, "Y:", y);
-});
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <title>Мультимедіа на сайті</title>
+  </head>
+  <body>
+  
+    <h1>Практична робота: мультимедіа в HTML</h1>
+  
+    <h2>Аудіо</h2>
+    <audio controls>
+      <source src="music.mp3" type="audio/mpeg">
+    </audio>
+  
+    <h2>Відео</h2>
+    <video controls width="500">
+      <source src="video.mp4" type="video/mp4">
+    </video>
+  
+  </body>
+</html>
