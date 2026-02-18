@@ -1,3 +1,4 @@
+[https://naurok.com.ua/prezentaciya-rozmischennya-grafiki-audio--ta-videoinformaci-na-veb-storinkah-353979.html]
 ```
 <!DOCTYPE html>
 <html lang="uk">
