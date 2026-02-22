@@ -83,4 +83,5 @@
 - Для заголовків — Montserrat або Playfair  
 - Для тексту — Open Sans або Lato  
 
+![Приклад](magazine.png)
 ---
