@@ -45,7 +45,8 @@
 Приклад коду:
 
 ```html
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Shaki_waterfall.jpg" width="300">```
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Shaki_waterfall.jpg" width="300">
+```
 
 Спробуйте:
 
@@ -65,7 +66,8 @@
 <li>Слухати музику</li>
 <li>Дивитися фільми</li>
 <li>Грати у комп'ютерні ігри</li>
-</ul>```
+</ul>
+```
 
 Спробуйте відредагувати і додати ще кілька пунктів списку.
 
@@ -76,7 +78,8 @@
 ```css
 body {
   background-color: lightblue;
-}```
+}
+```
 
 Спробуйте змінити колір сторінки на:
 
@@ -91,4 +94,5 @@ body {
 ```html
 <h2>Моя школа</h2>
 <p>Я навчаюся у школі № ...</p>
-<p>Мій улюблений предмет — інформатика.</p>```
+<p>Мій улюблений предмет — інформатика.</p>
+```
