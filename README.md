@@ -124,7 +124,7 @@
 src="https://www.youtube.com/embed/dQw4w9WgXcQ"
 allowfullscreen>
 </iframe>
-
+```
 АБО
 
 ## Варіант 2 (аудіо)
@@ -133,3 +133,33 @@ allowfullscreen>
 <audio controls>
     <source src="audio.mp3" type="audio/mpeg">
 </audio>
+```
+## ✨ КРОК 5 (10 хв): Додайте анімацію
+
+Додайте в `<style>`:
+
+```css
+@keyframes colorChange {
+    0% { color: white; }
+    50% { color: yellow; }
+    100% { color: white; }
+}
+
+header h1 {
+    animation: colorChange 3s infinite;
+}
+```
+## 🔥 Ефект при наведенні
+
+```css
+img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+```
+## 📜 Плавна прокрутка
+```
+html {
+    scroll-behavior: smooth;
+}
+```
